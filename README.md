@@ -1,5 +1,4 @@
-# skillSetGo
-
+# SolveX_VEXORA
 # 🚀 SkillSetGo
 
 > **AI-Powered Career Readiness Platform**
@@ -95,5 +94,5 @@ SkillSetGo aims to provide a **single AI-powered platform for complete career pr
 
 Built for **VEXORA Hackathon** 🚀
 
----
+Built for **VEXORA Hackathon** 🚀
 
