@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:ital,opsz,wght@0,12..96,400;0,12..96,500;0,12..96,600;0,12..96,700;1,12..96,500;1,12..96,600&family=Sora:wght@400;500;600;700&display=swap');
+
+@theme {
+  --font-display: 'Bricolage Grotesque', ui-sans-serif, Georgia, serif;
+  --font-sans: 'Sora', ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream: #F7F4EC;
+  --color-white: #FFFFFF;
+  --color-ink: #20251F;
+  --color-muted: #6F746C;
+  --color-sage: #6F866B;
+  --color-sage-dark: #526A52;
+  --color-sage-soft: #E8EEE3;
+  --color-terracotta: #D58A6A;
+  --color-peach: #F4E3D9;
+  --color-beige: #E8DCC8;
+  --color-gold: #D8B875;
+  --color-border: #E4E0D6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-sage-soft);
+  color: var(--color-sage-dark);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-sage);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
